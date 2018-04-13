@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.link {
+    stroke: #999;
+    stroke-opacity: .6;
+    stroke-width: 1;
+}
+
+</style>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="js/slider/d3.slider.js"></script>
+<link rel="stylesheet" href="js/slider/d3.slider.css" />  
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
+<body>
+    <div class="leftmain" id="leftmain">
+    </div>
+    <div class="rightmain" id="rightmain">
+        <p id="edgeCount">Edges</p>
+    </div>
+    <div class="bottom" id="bottom">
+    </div>
+    
+    <script>
+        // Filename to load
+        var filename = "graph.json";
+    
+        // Temporal max and min
+        var min = 1;
+        var max = 100;
+
+        console.log("Starting the script");
+
+        var winW = 630, winH = 460;
+        if (document.body && document.body.offsetWidth) {
+             winW = document.body.offsetWidth;
+             winH = document.body.offsetHeight;
+        }
+        if (document.compatMode=='CSS1Compat' &&
+                    document.documentElement &&
+                    document.documentElement.offsetWidth ) {
+             winW = document.documentElement.offsetWidth;
+             winH = document.documentElement.offsetHeight;
+        }
+        if (window.innerWidth && window.innerHeight) {
+             winW = window.innerWidth;
+             winH = window.innerHeight;
+        }
+
+        var width = winW,
+            height = winH - 150;
+
+        var color = d3.scale.category20();
+
+        var force = d3.layout.force()
+            .charge(-1090)
+            .gravity(0.5)
+            .linkDistance(300)
+            .size([width, height]);
+
+        var svg = d3.select("#leftmain").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        console.log("calling d3");
+        /* Read the JSON file */
+        d3.json(filename, function(error, graphData) {
+            if (error) throw error;
+            console.log("Starting the display");
+
+            var graph = {
+                "nodes" : [],
+                "edges" : []
+            };
+
+            graphData["Temporal Graph"].Vertices.forEach(function(v) {
+                if (v.presence.length > 0)
+                    graph.nodes.push(v);
+            });
+
+            graphData["Temporal Graph"].Edges.forEach(function(edge) {
+                if (edge.timeline[0].length > 0) 
+                    graph.edges.push(edge);
+            });
+
+            var degIndex = 0;
+            var maxDeg = 0;
+            graph.nodes.forEach(function(node, i) {
+                node.id = parseInt(node.value);
+                node.timeline = node.presence;
+            });
+            graph.nodes.sort(function(a,b) {return a.id - b.id;});
+            graph.edges.forEach(function(edge, i) {
+                edge.id = parseInt(edge.value);
+                edge.timeline = edge.timeline[0];
+                edge.source = edge.endpoints[0].value;
+                edge.target = edge.endpoints[1].value;
+            });
+            graph.edges.sort(function(a,b) {return a.id - b.id;});
+            console.log(graph);
+
+            force
+                .nodes(graph.nodes)
+                .links(graph.edges);
+
+            var link = svg.selectAll(".link")
+                .data(graph.edges)
+                .enter().append("line")
+                .attr("class", function(d) {return "link from" + d.source + " to" + d.target; })
+                .style("stroke-width", 1);
+
+            var node = svg.selectAll(".node")
+                .data(graph.nodes)
+                .enter().append("circle")
+                .attr("class", "node")
+                .attr("r", 5)      
+                .attr("title", function(d) {return "n" + d.id; })
+                .attr("id", function(d) {return "n" + d.id; })
+                .style("fill", function(d) { return color(1); })
+                .on("mouseover",
+                    function(d) {
+                        d3.select("#n"+d.id).attr("r", 10);
+                        //d3.selectAll(".from"+d.id).attr("style", "stroke: #B45F04; stroke-opacity: 1; stroke-width: 2");
+                        //d3.selectAll(".to"+d.id).attr("style", "stroke: #B45F04; stroke-opacity: 1; stroke-width: 2");
+                    })
+                .on("mouseout",
+                    function(d) {
+                        d3.select("#n"+d.id).attr("r", 5);
+                        //d3.selectAll(".from"+d.id).attr("style", "");
+                        //d3.selectAll(".to"+d.id).attr("style", "");
+                    })
+                .call(force.drag);
+
+            node.append("title")
+                .text(function(d) { return d.id; });
+
+            force.on("tick", function() {
+                link.attr("x1", function(d) { return d.source.x; })
+                    .attr("y1", function(d) { return d.source.y; })
+                    .attr("x2", function(d) { return d.target.x; })
+                    .attr("y2", function(d) { return d.target.y; });
+
+                node.attr("cx", function(d) { return d.x; })
+                    .attr("cy", function(d) { return d.y; });
+            });
+            
+            graph.nodes.forEach( function(node) {
+                    // start the node in the center
+                    node.x = width / 2;
+                    node.y = height / 2;
+            });
+
+            setTimeout(function() {
+                force.start();
+                for (var i = 150; i > 0; --i) force.tick();
+                force.stop();
+
+
+            }, 3);
+
+
+        });
+
+        var table = d3.select(".bottom").append("table");
+
+        var slider_scale = d3.scale.linear().domain([min, max]).range([min, max]);
+        var slider_axis = d3.svg.axis().orient("bottom").ticks(10).scale(slider_scale).tickFormat(d3.format(".0f"));
+
+
+        var row = table.append("tr");
+        row.append("td").attr("class", "tablehead").style("width", "20%").text("Time Selection(s):");
+        var cell = row.append("td").style("width", "900px");
+
+
+
+        var updateGraph = function(event, time) {
+            var count = 0;
+            svg.selectAll(".link").data(force.links())
+                .style("opacity", function(d) {
+                        for (var i = 0; i < d.timeline.length; i++) {
+                            if (time < d.timeline[i].begin) {
+                                break;
+                            } else if (d.timeline[i].begin < time && d.timeline[i].end >= time) {
+                                count++;
+                                return "1.0";
+                            }
+                        }
+                        return "0.1";
+                    })
+                .style("stroke", function(d) { 
+                        for (var i = 0; i < d.timeline.length; i++) {
+                            if (time < d.timeline[i].begin) {
+                                break;
+                            } else if (d.timeline[i].begin < time && d.timeline[i].end >= time) {
+                                return "#0000ff";
+                            }
+                        }
+                        return "#cccccc";
+                        });
+
+            d3.select("#edgeCount").text(count + " edges");
+
+        }
+
+        cell.append("div").call(d3.slider().axis(slider_axis).min(min).max(max).on("slide", updateGraph));
+
+    </script>
+
+    
+    </body>
+</html>
