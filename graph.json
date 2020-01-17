@@ -1,1 +1,3118 @@
-{ "Temporal Graph" : { "Vertices" : [{ "value": "0", "presence" : [{ "begin" : 0, "end" : 101}]},{ "value": "2", "presence" : [{ "begin" : 0, "end" : 101}]},{ "value": "5", "presence" : [{ "begin" : 0, "end" : 101}]},{ "value": "1", "presence" : [{ "begin" : 0, "end" : 101}]},{ "value": "7", "presence" : [{ "begin" : 0, "end" : 101}]},{ "value": "8", "presence" : [{ "begin" : 0, "end" : 101}]},{ "value": "6", "presence" : [{ "begin" : 0, "end" : 101}]},{ "value": "9", "presence" : [{ "begin" : 0, "end" : 101}]},{ "value": "3", "presence" : [{ "begin" : 0, "end" : 101}]},{ "value": "4", "presence" : [{ "begin" : 0, "end" : 101}]}], "Edges" : [{ "value" : "10", "endpoints" : [{ "value" : 1},{ "value" : 3}], "timeline" : [[{ "begin" : 15, "end" : 18},{ "begin" : 19, "end" : 21},{ "begin" : 22, "end" : 25},{ "begin" : 33, "end" : 35},{ "begin" : 39, "end" : 40},{ "begin" : 45, "end" : 47},{ "begin" : 48, "end" : 49},{ "begin" : 54, "end" : 55},{ "begin" : 62, "end" : 63},{ "begin" : 66, "end" : 67},{ "begin" : 68, "end" : 71},{ "begin" : 79, "end" : 82},{ "begin" : 88, "end" : 89}]] },{ "value" : "18", "endpoints" : [{ "value" : 2},{ "value" : 4}], "timeline" : [[{ "begin" : 13, "end" : 14},{ "begin" : 22, "end" : 23},{ "begin" : 25, "end" : 26},{ "begin" : 28, "end" : 29},{ "begin" : 35, "end" : 36},{ "begin" : 38, "end" : 39},{ "begin" : 43, "end" : 45},{ "begin" : 46, "end" : 48},{ "begin" : 53, "end" : 54},{ "begin" : 65, "end" : 66},{ "begin" : 72, "end" : 75},{ "begin" : 79, "end" : 80}]] },{ "value" : "35", "endpoints" : [{ "value" : 5},{ "value" : 6}], "timeline" : [[{ "begin" : 0, "end" : 10},{ "begin" : 18, "end" : 20},{ "begin" : 21, "end" : 23},{ "begin" : 25, "end" : 26},{ "begin" : 33, "end" : 34},{ "begin" : 45, "end" : 46},{ "begin" : 49, "end" : 50},{ "begin" : 51, "end" : 52},{ "begin" : 57, "end" : 58},{ "begin" : 68, "end" : 69},{ "begin" : 71, "end" : 72},{ "begin" : 73, "end" : 74},{ "begin" : 76, "end" : 79},{ "begin" : 86, "end" : 87}]] },{ "value" : "5", "endpoints" : [{ "value" : 0},{ "value" : 6}], "timeline" : [[{ "begin" : 12, "end" : 13},{ "begin" : 27, "end" : 30},{ "begin" : 43, "end" : 44},{ "begin" : 45, "end" : 46},{ "begin" : 60, "end" : 61},{ "begin" : 68, "end" : 69},{ "begin" : 71, "end" : 74}]] },{ "value" : "25", "endpoints" : [{ "value" : 5},{ "value" : 3}], "timeline" : [[{ "begin" : 14, "end" : 17},{ "begin" : 19, "end" : 20},{ "begin" : 27, "end" : 28},{ "begin" : 36, "end" : 38},{ "begin" : 39, "end" : 40},{ "begin" : 42, "end" : 43},{ "begin" : 55, "end" : 56},{ "begin" : 58, "end" : 60},{ "begin" : 62, "end" : 63},{ "begin" : 64, "end" : 65},{ "begin" : 74, "end" : 76},{ "begin" : 84, "end" : 85},{ "begin" : 89, "end" : 101}]] },{ "value" : "44", "endpoints" : [{ "value" : 8},{ "value" : 9}], "timeline" : [[{ "begin" : 15, "end" : 16},{ "begin" : 18, "end" : 21},{ "begin" : 23, "end" : 24},{ "begin" : 26, "end" : 27},{ "begin" : 28, "end" : 29},{ "begin" : 37, "end" : 40},{ "begin" : 44, "end" : 46},{ "begin" : 55, "end" : 62},{ "begin" : 70, "end" : 72},{ "begin" : 75, "end" : 76},{ "begin" : 80, "end" : 81},{ "begin" : 82, "end" : 86}]] },{ "value" : "7", "endpoints" : [{ "value" : 0},{ "value" : 8}], "timeline" : [[{ "begin" : 11, "end" : 13},{ "begin" : 17, "end" : 18},{ "begin" : 21, "end" : 22},{ "begin" : 23, "end" : 24},{ "begin" : 26, "end" : 31},{ "begin" : 32, "end" : 33},{ "begin" : 34, "end" : 35},{ "begin" : 36, "end" : 37},{ "begin" : 38, "end" : 39},{ "begin" : 41, "end" : 42},{ "begin" : 44, "end" : 45},{ "begin" : 52, "end" : 53},{ "begin" : 58, "end" : 60},{ "begin" : 64, "end" : 66},{ "begin" : 70, "end" : 71},{ "begin" : 73, "end" : 74},{ "begin" : 82, "end" : 83}]] },{ "value" : "22", "endpoints" : [{ "value" : 2},{ "value" : 8}], "timeline" : [[{ "begin" : 0, "end" : 10},{ "begin" : 14, "end" : 15},{ "begin" : 19, "end" : 20},{ "begin" : 29, "end" : 30},{ "begin" : 41, "end" : 43},{ "begin" : 47, "end" : 49},{ "begin" : 57, "end" : 58},{ "begin" : 69, "end" : 70},{ "begin" : 73, "end" : 74},{ "begin" : 77, "end" : 78},{ "begin" : 79, "end" : 84}]] },{ "value" : "39", "endpoints" : [{ "value" : 7},{ "value" : 6}], "timeline" : [[{ "begin" : 29, "end" : 31},{ "begin" : 35, "end" : 36},{ "begin" : 40, "end" : 41},{ "begin" : 46, "end" : 47},{ "begin" : 50, "end" : 51},{ "begin" : 58, "end" : 59},{ "begin" : 60, "end" : 61},{ "begin" : 66, "end" : 67},{ "begin" : 71, "end" : 72},{ "begin" : 76, "end" : 77},{ "begin" : 80, "end" : 82}]] },{ "value" : "6", "endpoints" : [{ "value" : 0},{ "value" : 7}], "timeline" : [[{ "begin" : 10, "end" : 15},{ "begin" : 16, "end" : 18},{ "begin" : 40, "end" : 41},{ "begin" : 43, "end" : 44},{ "begin" : 51, "end" : 52},{ "begin" : 56, "end" : 57},{ "begin" : 63, "end" : 64},{ "begin" : 70, "end" : 74},{ "begin" : 76, "end" : 77},{ "begin" : 82, "end" : 83},{ "begin" : 87, "end" : 101}]] },{ "value" : "29", "endpoints" : [{ "value" : 9},{ "value" : 3}], "timeline" : [[{ "begin" : 0, "end" : 10},{ "begin" : 13, "end" : 14},{ "begin" : 16, "end" : 18},{ "begin" : 20, "end" : 21},{ "begin" : 28, "end" : 30},{ "begin" : 34, "end" : 37},{ "begin" : 38, "end" : 39},{ "begin" : 40, "end" : 44},{ "begin" : 46, "end" : 48},{ "begin" : 49, "end" : 51},{ "begin" : 52, "end" : 53},{ "begin" : 57, "end" : 59},{ "begin" : 62, "end" : 63},{ "begin" : 68, "end" : 70},{ "begin" : 82, "end" : 87}]] },{ "value" : "41", "endpoints" : [{ "value" : 6},{ "value" : 9}], "timeline" : [[{ "begin" : 12, "end" : 14},{ "begin" : 21, "end" : 23},{ "begin" : 24, "end" : 26},{ "begin" : 31, "end" : 32},{ "begin" : 34, "end" : 35},{ "begin" : 40, "end" : 41},{ "begin" : 46, "end" : 47},{ "begin" : 55, "end" : 58},{ "begin" : 73, "end" : 74},{ "begin" : 78, "end" : 79},{ "begin" : 83, "end" : 86}]] },{ "value" : "27", "endpoints" : [{ "value" : 7},{ "value" : 3}], "timeline" : [[{ "begin" : 10, "end" : 11},{ "begin" : 18, "end" : 20},{ "begin" : 22, "end" : 23},{ "begin" : 25, "end" : 26},{ "begin" : 35, "end" : 36},{ "begin" : 38, "end" : 39},{ "begin" : 40, "end" : 42},{ "begin" : 44, "end" : 45},{ "begin" : 48, "end" : 50},{ "begin" : 52, "end" : 53},{ "begin" : 55, "end" : 57},{ "begin" : 59, "end" : 60},{ "begin" : 64, "end" : 66},{ "begin" : 67, "end" : 69},{ "begin" : 73, "end" : 76},{ "begin" : 79, "end" : 80},{ "begin" : 83, "end" : 87}]] },{ "value" : "42", "endpoints" : [{ "value" : 7},{ "value" : 8}], "timeline" : [[{ "begin" : 0, "end" : 12},{ "begin" : 30, "end" : 32},{ "begin" : 35, "end" : 38},{ "begin" : 48, "end" : 51},{ "begin" : 54, "end" : 55},{ "begin" : 56, "end" : 57},{ "begin" : 59, "end" : 63},{ "begin" : 68, "end" : 70},{ "begin" : 77, "end" : 78}]] },{ "value" : "4", "endpoints" : [{ "value" : 0},{ "value" : 5}], "timeline" : [[{ "begin" : 13, "end" : 14},{ "begin" : 15, "end" : 16},{ "begin" : 17, "end" : 19},{ "begin" : 25, "end" : 26},{ "begin" : 27, "end" : 28},{ "begin" : 32, "end" : 33},{ "begin" : 34, "end" : 39},{ "begin" : 41, "end" : 42},{ "begin" : 52, "end" : 55},{ "begin" : 56, "end" : 57},{ "begin" : 59, "end" : 60},{ "begin" : 61, "end" : 62},{ "begin" : 63, "end" : 65},{ "begin" : 70, "end" : 75},{ "begin" : 83, "end" : 84},{ "begin" : 85, "end" : 86},{ "begin" : 89, "end" : 101}]] },{ "value" : "43", "endpoints" : [{ "value" : 7},{ "value" : 9}], "timeline" : [[{ "begin" : 0, "end" : 12},{ "begin" : 14, "end" : 15},{ "begin" : 20, "end" : 21},{ "begin" : 22, "end" : 25},{ "begin" : 32, "end" : 33},{ "begin" : 34, "end" : 35},{ "begin" : 60, "end" : 61},{ "begin" : 66, "end" : 68},{ "begin" : 77, "end" : 78},{ "begin" : 81, "end" : 82},{ "begin" : 83, "end" : 84}]] },{ "value" : "13", "endpoints" : [{ "value" : 1},{ "value" : 6}], "timeline" : [[{ "begin" : 10, "end" : 12},{ "begin" : 14, "end" : 16},{ "begin" : 19, "end" : 21},{ "begin" : 24, "end" : 25},{ "begin" : 32, "end" : 34},{ "begin" : 39, "end" : 40},{ "begin" : 42, "end" : 44},{ "begin" : 47, "end" : 48},{ "begin" : 49, "end" : 50},{ "begin" : 52, "end" : 53},{ "begin" : 54, "end" : 56},{ "begin" : 63, "end" : 64},{ "begin" : 68, "end" : 69},{ "begin" : 76, "end" : 77},{ "begin" : 78, "end" : 83},{ "begin" : 86, "end" : 87},{ "begin" : 88, "end" : 89}]] },{ "value" : "8", "endpoints" : [{ "value" : 0},{ "value" : 9}], "timeline" : [[{ "begin" : 15, "end" : 16},{ "begin" : 18, "end" : 20},{ "begin" : 21, "end" : 22},{ "begin" : 30, "end" : 31},{ "begin" : 33, "end" : 34},{ "begin" : 37, "end" : 38},{ "begin" : 40, "end" : 41},{ "begin" : 47, "end" : 49},{ "begin" : 55, "end" : 56},{ "begin" : 63, "end" : 64},{ "begin" : 72, "end" : 73},{ "begin" : 75, "end" : 78},{ "begin" : 81, "end" : 82},{ "begin" : 84, "end" : 85},{ "begin" : 87, "end" : 88}]] },{ "value" : "37", "endpoints" : [{ "value" : 5},{ "value" : 8}], "timeline" : [[{ "begin" : 16, "end" : 19},{ "begin" : 24, "end" : 27},{ "begin" : 33, "end" : 34},{ "begin" : 35, "end" : 36},{ "begin" : 42, "end" : 43},{ "begin" : 46, "end" : 48},{ "begin" : 51, "end" : 53},{ "begin" : 57, "end" : 58},{ "begin" : 66, "end" : 68},{ "begin" : 77, "end" : 78},{ "begin" : 88, "end" : 101}]] },{ "value" : "31", "endpoints" : [{ "value" : 6},{ "value" : 4}], "timeline" : [[{ "begin" : 12, "end" : 15},{ "begin" : 17, "end" : 18},{ "begin" : 21, "end" : 22},{ "begin" : 27, "end" : 28},{ "begin" : 41, "end" : 42},{ "begin" : 53, "end" : 54},{ "begin" : 60, "end" : 61},{ "begin" : 65, "end" : 67},{ "begin" : 78, "end" : 79},{ "begin" : 82, "end" : 83}]] },{ "value" : "1", "endpoints" : [{ "value" : 0},{ "value" : 2}], "timeline" : [[{ "begin" : 10, "end" : 11},{ "begin" : 13, "end" : 14},{ "begin" : 23, "end" : 24},{ "begin" : 36, "end" : 39},{ "begin" : 44, "end" : 46},{ "begin" : 47, "end" : 48},{ "begin" : 49, "end" : 50},{ "begin" : 52, "end" : 53},{ "begin" : 60, "end" : 63},{ "begin" : 64, "end" : 65},{ "begin" : 70, "end" : 71},{ "begin" : 75, "end" : 76},{ "begin" : 84, "end" : 85},{ "begin" : 86, "end" : 87},{ "begin" : 88, "end" : 101}]] },{ "value" : "24", "endpoints" : [{ "value" : 3},{ "value" : 4}], "timeline" : [[{ "begin" : 0, "end" : 11},{ "begin" : 21, "end" : 22},{ "begin" : 23, "end" : 25},{ "begin" : 27, "end" : 28},{ "begin" : 31, "end" : 32},{ "begin" : 36, "end" : 37},{ "begin" : 41, "end" : 42},{ "begin" : 51, "end" : 52},{ "begin" : 53, "end" : 55},{ "begin" : 62, "end" : 63},{ "begin" : 64, "end" : 66},{ "begin" : 71, "end" : 73},{ "begin" : 74, "end" : 76},{ "begin" : 83, "end" : 84},{ "begin" : 88, "end" : 89}]] },{ "value" : "15", "endpoints" : [{ "value" : 1},{ "value" : 8}], "timeline" : [[{ "begin" : 0, "end" : 10},{ "begin" : 13, "end" : 14},{ "begin" : 15, "end" : 16},{ "begin" : 18, "end" : 19},{ "begin" : 22, "end" : 23},{ "begin" : 24, "end" : 25},{ "begin" : 34, "end" : 35},{ "begin" : 39, "end" : 40},{ "begin" : 41, "end" : 42},{ "begin" : 46, "end" : 49},{ "begin" : 59, "end" : 62},{ "begin" : 79, "end" : 80},{ "begin" : 87, "end" : 88}]] },{ "value" : "28", "endpoints" : [{ "value" : 8},{ "value" : 3}], "timeline" : [[{ "begin" : 10, "end" : 12},{ "begin" : 15, "end" : 16},{ "begin" : 29, "end" : 31},{ "begin" : 34, "end" : 35},{ "begin" : 36, "end" : 37},{ "begin" : 42, "end" : 43},{ "begin" : 44, "end" : 45},{ "begin" : 49, "end" : 52},{ "begin" : 65, "end" : 66},{ "begin" : 67, "end" : 68},{ "begin" : 76, "end" : 78},{ "begin" : 81, "end" : 82},{ "begin" : 83, "end" : 84},{ "begin" : 86, "end" : 87},{ "begin" : 89, "end" : 101}]] },{ "value" : "38", "endpoints" : [{ "value" : 5},{ "value" : 9}], "timeline" : [[{ "begin" : 11, "end" : 12},{ "begin" : 16, "end" : 18},{ "begin" : 21, "end" : 22},{ "begin" : 28, "end" : 29},{ "begin" : 33, "end" : 35},{ "begin" : 50, "end" : 51},{ "begin" : 53, "end" : 55},{ "begin" : 58, "end" : 61},{ "begin" : 62, "end" : 64},{ "begin" : 65, "end" : 66},{ "begin" : 67, "end" : 68},{ "begin" : 76, "end" : 77},{ "begin" : 78, "end" : 79},{ "begin" : 85, "end" : 86},{ "begin" : 87, "end" : 101}]] },{ "value" : "26", "endpoints" : [{ "value" : 6},{ "value" : 3}], "timeline" : [[{ "begin" : 0, "end" : 10},{ "begin" : 12, "end" : 13},{ "begin" : 15, "end" : 16},{ "begin" : 21, "end" : 22},{ "begin" : 26, "end" : 27},{ "begin" : 30, "end" : 31},{ "begin" : 37, "end" : 38},{ "begin" : 44, "end" : 46},{ "begin" : 47, "end" : 48},{ "begin" : 50, "end" : 52},{ "begin" : 54, "end" : 58},{ "begin" : 59, "end" : 60},{ "begin" : 62, "end" : 63},{ "begin" : 64, "end" : 66},{ "begin" : 80, "end" : 81},{ "begin" : 85, "end" : 87}]] },{ "value" : "3", "endpoints" : [{ "value" : 0},{ "value" : 4}], "timeline" : [[{ "begin" : 15, "end" : 17},{ "begin" : 19, "end" : 20},{ "begin" : 23, "end" : 25},{ "begin" : 26, "end" : 27},{ "begin" : 29, "end" : 31},{ "begin" : 32, "end" : 36},{ "begin" : 38, "end" : 41},{ "begin" : 43, "end" : 46},{ "begin" : 50, "end" : 54},{ "begin" : 58, "end" : 59},{ "begin" : 63, "end" : 64},{ "begin" : 66, "end" : 69},{ "begin" : 75, "end" : 81},{ "begin" : 82, "end" : 83}]] },{ "value" : "34", "endpoints" : [{ "value" : 9},{ "value" : 4}], "timeline" : [[{ "begin" : 11, "end" : 12},{ "begin" : 14, "end" : 15},{ "begin" : 17, "end" : 19},{ "begin" : 23, "end" : 24},{ "begin" : 28, "end" : 29},{ "begin" : 31, "end" : 32},{ "begin" : 37, "end" : 38},{ "begin" : 40, "end" : 41},{ "begin" : 44, "end" : 45},{ "begin" : 46, "end" : 47},{ "begin" : 55, "end" : 57},{ "begin" : 64, "end" : 65},{ "begin" : 67, "end" : 68},{ "begin" : 69, "end" : 70},{ "begin" : 75, "end" : 77},{ "begin" : 80, "end" : 81},{ "begin" : 84, "end" : 85},{ "begin" : 87, "end" : 89}]] },{ "value" : "12", "endpoints" : [{ "value" : 5},{ "value" : 1}], "timeline" : [[{ "begin" : 13, "end" : 14},{ "begin" : 20, "end" : 21},{ "begin" : 25, "end" : 26},{ "begin" : 32, "end" : 33},{ "begin" : 36, "end" : 38},{ "begin" : 39, "end" : 40},{ "begin" : 48, "end" : 49},{ "begin" : 58, "end" : 59},{ "begin" : 63, "end" : 65},{ "begin" : 66, "end" : 71},{ "begin" : 73, "end" : 75},{ "begin" : 76, "end" : 81},{ "begin" : 87, "end" : 88}]] },{ "value" : "11", "endpoints" : [{ "value" : 1},{ "value" : 4}], "timeline" : [[{ "begin" : 22, "end" : 24},{ "begin" : 25, "end" : 26},{ "begin" : 32, "end" : 34},{ "begin" : 47, "end" : 48},{ "begin" : 51, "end" : 52},{ "begin" : 53, "end" : 54},{ "begin" : 59, "end" : 60},{ "begin" : 64, "end" : 65},{ "begin" : 66, "end" : 67},{ "begin" : 71, "end" : 72},{ "begin" : 73, "end" : 74},{ "begin" : 78, "end" : 79},{ "begin" : 85, "end" : 86},{ "begin" : 87, "end" : 88}]] },{ "value" : "20", "endpoints" : [{ "value" : 2},{ "value" : 6}], "timeline" : [[{ "begin" : 18, "end" : 20},{ "begin" : 23, "end" : 24},{ "begin" : 26, "end" : 27},{ "begin" : 28, "end" : 29},{ "begin" : 31, "end" : 32},{ "begin" : 45, "end" : 47},{ "begin" : 48, "end" : 50},{ "begin" : 53, "end" : 54},{ "begin" : 61, "end" : 62},{ "begin" : 63, "end" : 64},{ "begin" : 70, "end" : 71},{ "begin" : 74, "end" : 75},{ "begin" : 77, "end" : 79},{ "begin" : 85, "end" : 86},{ "begin" : 87, "end" : 88},{ "begin" : 89, "end" : 101}]] },{ "value" : "2", "endpoints" : [{ "value" : 0},{ "value" : 3}], "timeline" : [[{ "begin" : 0, "end" : 11},{ "begin" : 12, "end" : 13},{ "begin" : 18, "end" : 19},{ "begin" : 21, "end" : 22},{ "begin" : 26, "end" : 27},{ "begin" : 29, "end" : 33},{ "begin" : 35, "end" : 36},{ "begin" : 39, "end" : 41},{ "begin" : 43, "end" : 44},{ "begin" : 57, "end" : 59},{ "begin" : 61, "end" : 62},{ "begin" : 67, "end" : 68},{ "begin" : 70, "end" : 71},{ "begin" : 77, "end" : 78},{ "begin" : 85, "end" : 89}]] },{ "value" : "21", "endpoints" : [{ "value" : 2},{ "value" : 7}], "timeline" : [[{ "begin" : 0, "end" : 10},{ "begin" : 22, "end" : 23},{ "begin" : 28, "end" : 29},{ "begin" : 32, "end" : 34},{ "begin" : 38, "end" : 39},{ "begin" : 42, "end" : 44},{ "begin" : 50, "end" : 51},{ "begin" : 57, "end" : 58},{ "begin" : 61, "end" : 62},{ "begin" : 74, "end" : 75},{ "begin" : 76, "end" : 77},{ "begin" : 82, "end" : 85}]] },{ "value" : "33", "endpoints" : [{ "value" : 8},{ "value" : 4}], "timeline" : [[{ "begin" : 12, "end" : 15},{ "begin" : 19, "end" : 21},{ "begin" : 27, "end" : 28},{ "begin" : 30, "end" : 31},{ "begin" : 32, "end" : 33},{ "begin" : 39, "end" : 40},{ "begin" : 43, "end" : 45},{ "begin" : 49, "end" : 50},{ "begin" : 52, "end" : 53},{ "begin" : 57, "end" : 59},{ "begin" : 62, "end" : 64},{ "begin" : 65, "end" : 66},{ "begin" : 81, "end" : 82},{ "begin" : 88, "end" : 89}]] },{ "value" : "0", "endpoints" : [{ "value" : 0},{ "value" : 1}], "timeline" : [[{ "begin" : 14, "end" : 15},{ "begin" : 20, "end" : 21},{ "begin" : 24, "end" : 26},{ "begin" : 38, "end" : 39},{ "begin" : 56, "end" : 57},{ "begin" : 60, "end" : 62},{ "begin" : 74, "end" : 76},{ "begin" : 86, "end" : 87},{ "begin" : 89, "end" : 101}]] },{ "value" : "9", "endpoints" : [{ "value" : 2},{ "value" : 1}], "timeline" : [[{ "begin" : 16, "end" : 18},{ "begin" : 24, "end" : 27},{ "begin" : 33, "end" : 34},{ "begin" : 40, "end" : 44},{ "begin" : 50, "end" : 51},{ "begin" : 53, "end" : 55},{ "begin" : 61, "end" : 62},{ "begin" : 75, "end" : 76},{ "begin" : 78, "end" : 79},{ "begin" : 84, "end" : 85}]] },{ "value" : "30", "endpoints" : [{ "value" : 5},{ "value" : 4}], "timeline" : [[{ "begin" : 13, "end" : 14},{ "begin" : 27, "end" : 28},{ "begin" : 29, "end" : 32},{ "begin" : 34, "end" : 36},{ "begin" : 37, "end" : 39},{ "begin" : 41, "end" : 42},{ "begin" : 50, "end" : 51},{ "begin" : 52, "end" : 56},{ "begin" : 63, "end" : 64},{ "begin" : 65, "end" : 66},{ "begin" : 69, "end" : 73},{ "begin" : 79, "end" : 80},{ "begin" : 81, "end" : 83},{ "begin" : 86, "end" : 87}]] },{ "value" : "16", "endpoints" : [{ "value" : 1},{ "value" : 9}], "timeline" : [[{ "begin" : 10, "end" : 12},{ "begin" : 21, "end" : 22},{ "begin" : 29, "end" : 30},{ "begin" : 36, "end" : 37},{ "begin" : 41, "end" : 42},{ "begin" : 44, "end" : 46},{ "begin" : 53, "end" : 56},{ "begin" : 60, "end" : 61},{ "begin" : 66, "end" : 67},{ "begin" : 69, "end" : 70},{ "begin" : 75, "end" : 76}]] },{ "value" : "23", "endpoints" : [{ "value" : 2},{ "value" : 9}], "timeline" : [[{ "begin" : 12, "end" : 13},{ "begin" : 14, "end" : 15},{ "begin" : 22, "end" : 23},{ "begin" : 26, "end" : 29},{ "begin" : 30, "end" : 31},{ "begin" : 37, "end" : 38},{ "begin" : 42, "end" : 43},{ "begin" : 46, "end" : 47},{ "begin" : 50, "end" : 52},{ "begin" : 62, "end" : 63},{ "begin" : 67, "end" : 68},{ "begin" : 72, "end" : 73}]] },{ "value" : "14", "endpoints" : [{ "value" : 1},{ "value" : 7}], "timeline" : [[{ "begin" : 0, "end" : 10},{ "begin" : 17, "end" : 19},{ "begin" : 20, "end" : 24},{ "begin" : 35, "end" : 36},{ "begin" : 39, "end" : 40},{ "begin" : 42, "end" : 43},{ "begin" : 48, "end" : 49},{ "begin" : 57, "end" : 60},{ "begin" : 64, "end" : 65},{ "begin" : 67, "end" : 70},{ "begin" : 83, "end" : 84},{ "begin" : 85, "end" : 88}]] },{ "value" : "32", "endpoints" : [{ "value" : 7},{ "value" : 4}], "timeline" : [[{ "begin" : 10, "end" : 11},{ "begin" : 16, "end" : 17},{ "begin" : 27, "end" : 28},{ "begin" : 31, "end" : 32},{ "begin" : 33, "end" : 34},{ "begin" : 40, "end" : 41},{ "begin" : 48, "end" : 50},{ "begin" : 56, "end" : 57},{ "begin" : 62, "end" : 64},{ "begin" : 65, "end" : 66},{ "begin" : 71, "end" : 73},{ "begin" : 74, "end" : 75},{ "begin" : 79, "end" : 81},{ "begin" : 82, "end" : 83}]] },{ "value" : "40", "endpoints" : [{ "value" : 8},{ "value" : 6}], "timeline" : [[{ "begin" : 11, "end" : 13},{ "begin" : 16, "end" : 17},{ "begin" : 20, "end" : 21},{ "begin" : 27, "end" : 28},{ "begin" : 36, "end" : 37},{ "begin" : 45, "end" : 46},{ "begin" : 48, "end" : 50},{ "begin" : 61, "end" : 62},{ "begin" : 66, "end" : 67},{ "begin" : 68, "end" : 71}]] },{ "value" : "19", "endpoints" : [{ "value" : 2},{ "value" : 5}], "timeline" : [[{ "begin" : 26, "end" : 27},{ "begin" : 31, "end" : 32},{ "begin" : 39, "end" : 40},{ "begin" : 43, "end" : 44},{ "begin" : 46, "end" : 47},{ "begin" : 52, "end" : 53},{ "begin" : 74, "end" : 75},{ "begin" : 78, "end" : 79},{ "begin" : 81, "end" : 82},{ "begin" : 84, "end" : 85},{ "begin" : 87, "end" : 88}]] },{ "value" : "36", "endpoints" : [{ "value" : 5},{ "value" : 7}], "timeline" : [[{ "begin" : 11, "end" : 13},{ "begin" : 14, "end" : 15},{ "begin" : 16, "end" : 17},{ "begin" : 25, "end" : 27},{ "begin" : 31, "end" : 32},{ "begin" : 47, "end" : 48},{ "begin" : 51, "end" : 52},{ "begin" : 55, "end" : 57},{ "begin" : 69, "end" : 70},{ "begin" : 72, "end" : 73},{ "begin" : 89, "end" : 101}]] },{ "value" : "17", "endpoints" : [{ "value" : 2},{ "value" : 3}], "timeline" : [[{ "begin" : 15, "end" : 16},{ "begin" : 20, "end" : 21},{ "begin" : 24, "end" : 25},{ "begin" : 28, "end" : 30},{ "begin" : 31, "end" : 33},{ "begin" : 42, "end" : 43},{ "begin" : 45, "end" : 46},{ "begin" : 51, "end" : 52},{ "begin" : 54, "end" : 55},{ "begin" : 66, "end" : 67},{ "begin" : 71, "end" : 73},{ "begin" : 79, "end" : 82},{ "begin" : 88, "end" : 101}]] }] } }
+{
+    "Temporal Graph": {
+        "Edges": [
+            {
+                "endpoints": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 3
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 15,
+                            "end": 18
+                        },
+                        {
+                            "begin": 19,
+                            "end": 21
+                        },
+                        {
+                            "begin": 22,
+                            "end": 25
+                        },
+                        {
+                            "begin": 33,
+                            "end": 35
+                        },
+                        {
+                            "begin": 39,
+                            "end": 40
+                        },
+                        {
+                            "begin": 45,
+                            "end": 47
+                        },
+                        {
+                            "begin": 48,
+                            "end": 49
+                        },
+                        {
+                            "begin": 54,
+                            "end": 55
+                        },
+                        {
+                            "begin": 62,
+                            "end": 63
+                        },
+                        {
+                            "begin": 66,
+                            "end": 67
+                        },
+                        {
+                            "begin": 68,
+                            "end": 71
+                        },
+                        {
+                            "begin": 79,
+                            "end": 82
+                        },
+                        {
+                            "begin": 88,
+                            "end": 89
+                        }
+                    ]
+                ],
+                "value": "10",
+                "weight": 5
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": 4
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 13,
+                            "end": 14
+                        },
+                        {
+                            "begin": 22,
+                            "end": 23
+                        },
+                        {
+                            "begin": 25,
+                            "end": 26
+                        },
+                        {
+                            "begin": 28,
+                            "end": 29
+                        },
+                        {
+                            "begin": 35,
+                            "end": 36
+                        },
+                        {
+                            "begin": 38,
+                            "end": 39
+                        },
+                        {
+                            "begin": 43,
+                            "end": 45
+                        },
+                        {
+                            "begin": 46,
+                            "end": 48
+                        },
+                        {
+                            "begin": 53,
+                            "end": 54
+                        },
+                        {
+                            "begin": 65,
+                            "end": 66
+                        },
+                        {
+                            "begin": 72,
+                            "end": 75
+                        },
+                        {
+                            "begin": 79,
+                            "end": 80
+                        }
+                    ]
+                ],
+                "value": "18"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 5
+                    },
+                    {
+                        "value": 6
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 0,
+                            "end": 10
+                        },
+                        {
+                            "begin": 18,
+                            "end": 20
+                        },
+                        {
+                            "begin": 21,
+                            "end": 23
+                        },
+                        {
+                            "begin": 25,
+                            "end": 26
+                        },
+                        {
+                            "begin": 33,
+                            "end": 34
+                        },
+                        {
+                            "begin": 45,
+                            "end": 46
+                        },
+                        {
+                            "begin": 49,
+                            "end": 50
+                        },
+                        {
+                            "begin": 51,
+                            "end": 52
+                        },
+                        {
+                            "begin": 57,
+                            "end": 58
+                        },
+                        {
+                            "begin": 68,
+                            "end": 69
+                        },
+                        {
+                            "begin": 71,
+                            "end": 72
+                        },
+                        {
+                            "begin": 73,
+                            "end": 74
+                        },
+                        {
+                            "begin": 76,
+                            "end": 79
+                        },
+                        {
+                            "begin": 86,
+                            "end": 87
+                        }
+                    ]
+                ],
+                "value": "35"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 6
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 12,
+                            "end": 13
+                        },
+                        {
+                            "begin": 27,
+                            "end": 30
+                        },
+                        {
+                            "begin": 43,
+                            "end": 44
+                        },
+                        {
+                            "begin": 45,
+                            "end": 46
+                        },
+                        {
+                            "begin": 60,
+                            "end": 61
+                        },
+                        {
+                            "begin": 68,
+                            "end": 69
+                        },
+                        {
+                            "begin": 71,
+                            "end": 74
+                        }
+                    ]
+                ],
+                "value": "5"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 5
+                    },
+                    {
+                        "value": 3
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 14,
+                            "end": 17
+                        },
+                        {
+                            "begin": 19,
+                            "end": 20
+                        },
+                        {
+                            "begin": 27,
+                            "end": 28
+                        },
+                        {
+                            "begin": 36,
+                            "end": 38
+                        },
+                        {
+                            "begin": 39,
+                            "end": 40
+                        },
+                        {
+                            "begin": 42,
+                            "end": 43
+                        },
+                        {
+                            "begin": 55,
+                            "end": 56
+                        },
+                        {
+                            "begin": 58,
+                            "end": 60
+                        },
+                        {
+                            "begin": 62,
+                            "end": 63
+                        },
+                        {
+                            "begin": 64,
+                            "end": 65
+                        },
+                        {
+                            "begin": 74,
+                            "end": 76
+                        },
+                        {
+                            "begin": 84,
+                            "end": 85
+                        },
+                        {
+                            "begin": 89,
+                            "end": 101
+                        }
+                    ]
+                ],
+                "value": "25"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 8
+                    },
+                    {
+                        "value": 9
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 15,
+                            "end": 16
+                        },
+                        {
+                            "begin": 18,
+                            "end": 21
+                        },
+                        {
+                            "begin": 23,
+                            "end": 24
+                        },
+                        {
+                            "begin": 26,
+                            "end": 27
+                        },
+                        {
+                            "begin": 28,
+                            "end": 29
+                        },
+                        {
+                            "begin": 37,
+                            "end": 40
+                        },
+                        {
+                            "begin": 44,
+                            "end": 46
+                        },
+                        {
+                            "begin": 55,
+                            "end": 62
+                        },
+                        {
+                            "begin": 70,
+                            "end": 72
+                        },
+                        {
+                            "begin": 75,
+                            "end": 76
+                        },
+                        {
+                            "begin": 80,
+                            "end": 81
+                        },
+                        {
+                            "begin": 82,
+                            "end": 86
+                        }
+                    ]
+                ],
+                "value": "44"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 8
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 11,
+                            "end": 13
+                        },
+                        {
+                            "begin": 17,
+                            "end": 18
+                        },
+                        {
+                            "begin": 21,
+                            "end": 22
+                        },
+                        {
+                            "begin": 23,
+                            "end": 24
+                        },
+                        {
+                            "begin": 26,
+                            "end": 31
+                        },
+                        {
+                            "begin": 32,
+                            "end": 33
+                        },
+                        {
+                            "begin": 34,
+                            "end": 35
+                        },
+                        {
+                            "begin": 36,
+                            "end": 37
+                        },
+                        {
+                            "begin": 38,
+                            "end": 39
+                        },
+                        {
+                            "begin": 41,
+                            "end": 42
+                        },
+                        {
+                            "begin": 44,
+                            "end": 45
+                        },
+                        {
+                            "begin": 52,
+                            "end": 53
+                        },
+                        {
+                            "begin": 58,
+                            "end": 60
+                        },
+                        {
+                            "begin": 64,
+                            "end": 66
+                        },
+                        {
+                            "begin": 70,
+                            "end": 71
+                        },
+                        {
+                            "begin": 73,
+                            "end": 74
+                        },
+                        {
+                            "begin": 82,
+                            "end": 83
+                        }
+                    ]
+                ],
+                "value": "7"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": 8
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 0,
+                            "end": 10
+                        },
+                        {
+                            "begin": 14,
+                            "end": 15
+                        },
+                        {
+                            "begin": 19,
+                            "end": 20
+                        },
+                        {
+                            "begin": 29,
+                            "end": 30
+                        },
+                        {
+                            "begin": 41,
+                            "end": 43
+                        },
+                        {
+                            "begin": 47,
+                            "end": 49
+                        },
+                        {
+                            "begin": 57,
+                            "end": 58
+                        },
+                        {
+                            "begin": 69,
+                            "end": 70
+                        },
+                        {
+                            "begin": 73,
+                            "end": 74
+                        },
+                        {
+                            "begin": 77,
+                            "end": 78
+                        },
+                        {
+                            "begin": 79,
+                            "end": 84
+                        }
+                    ]
+                ],
+                "value": "22"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 7
+                    },
+                    {
+                        "value": 6
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 29,
+                            "end": 31
+                        },
+                        {
+                            "begin": 35,
+                            "end": 36
+                        },
+                        {
+                            "begin": 40,
+                            "end": 41
+                        },
+                        {
+                            "begin": 46,
+                            "end": 47
+                        },
+                        {
+                            "begin": 50,
+                            "end": 51
+                        },
+                        {
+                            "begin": 58,
+                            "end": 59
+                        },
+                        {
+                            "begin": 60,
+                            "end": 61
+                        },
+                        {
+                            "begin": 66,
+                            "end": 67
+                        },
+                        {
+                            "begin": 71,
+                            "end": 72
+                        },
+                        {
+                            "begin": 76,
+                            "end": 77
+                        },
+                        {
+                            "begin": 80,
+                            "end": 82
+                        }
+                    ]
+                ],
+                "value": "39"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 7
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 10,
+                            "end": 15
+                        },
+                        {
+                            "begin": 16,
+                            "end": 18
+                        },
+                        {
+                            "begin": 40,
+                            "end": 41
+                        },
+                        {
+                            "begin": 43,
+                            "end": 44
+                        },
+                        {
+                            "begin": 51,
+                            "end": 52
+                        },
+                        {
+                            "begin": 56,
+                            "end": 57
+                        },
+                        {
+                            "begin": 63,
+                            "end": 64
+                        },
+                        {
+                            "begin": 70,
+                            "end": 74
+                        },
+                        {
+                            "begin": 76,
+                            "end": 77
+                        },
+                        {
+                            "begin": 82,
+                            "end": 83
+                        },
+                        {
+                            "begin": 87,
+                            "end": 101
+                        }
+                    ]
+                ],
+                "value": "6"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 9
+                    },
+                    {
+                        "value": 3
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 0,
+                            "end": 10
+                        },
+                        {
+                            "begin": 13,
+                            "end": 14
+                        },
+                        {
+                            "begin": 16,
+                            "end": 18
+                        },
+                        {
+                            "begin": 20,
+                            "end": 21
+                        },
+                        {
+                            "begin": 28,
+                            "end": 30
+                        },
+                        {
+                            "begin": 34,
+                            "end": 37
+                        },
+                        {
+                            "begin": 38,
+                            "end": 39
+                        },
+                        {
+                            "begin": 40,
+                            "end": 44
+                        },
+                        {
+                            "begin": 46,
+                            "end": 48
+                        },
+                        {
+                            "begin": 49,
+                            "end": 51
+                        },
+                        {
+                            "begin": 52,
+                            "end": 53
+                        },
+                        {
+                            "begin": 57,
+                            "end": 59
+                        },
+                        {
+                            "begin": 62,
+                            "end": 63
+                        },
+                        {
+                            "begin": 68,
+                            "end": 70
+                        },
+                        {
+                            "begin": 82,
+                            "end": 87
+                        }
+                    ]
+                ],
+                "value": "29"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 6
+                    },
+                    {
+                        "value": 9
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 12,
+                            "end": 14
+                        },
+                        {
+                            "begin": 21,
+                            "end": 23
+                        },
+                        {
+                            "begin": 24,
+                            "end": 26
+                        },
+                        {
+                            "begin": 31,
+                            "end": 32
+                        },
+                        {
+                            "begin": 34,
+                            "end": 35
+                        },
+                        {
+                            "begin": 40,
+                            "end": 41
+                        },
+                        {
+                            "begin": 46,
+                            "end": 47
+                        },
+                        {
+                            "begin": 55,
+                            "end": 58
+                        },
+                        {
+                            "begin": 73,
+                            "end": 74
+                        },
+                        {
+                            "begin": 78,
+                            "end": 79
+                        },
+                        {
+                            "begin": 83,
+                            "end": 86
+                        }
+                    ]
+                ],
+                "value": "41"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 7
+                    },
+                    {
+                        "value": 3
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 10,
+                            "end": 11
+                        },
+                        {
+                            "begin": 18,
+                            "end": 20
+                        },
+                        {
+                            "begin": 22,
+                            "end": 23
+                        },
+                        {
+                            "begin": 25,
+                            "end": 26
+                        },
+                        {
+                            "begin": 35,
+                            "end": 36
+                        },
+                        {
+                            "begin": 38,
+                            "end": 39
+                        },
+                        {
+                            "begin": 40,
+                            "end": 42
+                        },
+                        {
+                            "begin": 44,
+                            "end": 45
+                        },
+                        {
+                            "begin": 48,
+                            "end": 50
+                        },
+                        {
+                            "begin": 52,
+                            "end": 53
+                        },
+                        {
+                            "begin": 55,
+                            "end": 57
+                        },
+                        {
+                            "begin": 59,
+                            "end": 60
+                        },
+                        {
+                            "begin": 64,
+                            "end": 66
+                        },
+                        {
+                            "begin": 67,
+                            "end": 69
+                        },
+                        {
+                            "begin": 73,
+                            "end": 76
+                        },
+                        {
+                            "begin": 79,
+                            "end": 80
+                        },
+                        {
+                            "begin": 83,
+                            "end": 87
+                        }
+                    ]
+                ],
+                "value": "27"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 7
+                    },
+                    {
+                        "value": 8
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 0,
+                            "end": 12
+                        },
+                        {
+                            "begin": 30,
+                            "end": 32
+                        },
+                        {
+                            "begin": 35,
+                            "end": 38
+                        },
+                        {
+                            "begin": 48,
+                            "end": 51
+                        },
+                        {
+                            "begin": 54,
+                            "end": 55
+                        },
+                        {
+                            "begin": 56,
+                            "end": 57
+                        },
+                        {
+                            "begin": 59,
+                            "end": 63
+                        },
+                        {
+                            "begin": 68,
+                            "end": 70
+                        },
+                        {
+                            "begin": 77,
+                            "end": 78
+                        }
+                    ]
+                ],
+                "value": "42"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 5
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 13,
+                            "end": 14
+                        },
+                        {
+                            "begin": 15,
+                            "end": 16
+                        },
+                        {
+                            "begin": 17,
+                            "end": 19
+                        },
+                        {
+                            "begin": 25,
+                            "end": 26
+                        },
+                        {
+                            "begin": 27,
+                            "end": 28
+                        },
+                        {
+                            "begin": 32,
+                            "end": 33
+                        },
+                        {
+                            "begin": 34,
+                            "end": 39
+                        },
+                        {
+                            "begin": 41,
+                            "end": 42
+                        },
+                        {
+                            "begin": 52,
+                            "end": 55
+                        },
+                        {
+                            "begin": 56,
+                            "end": 57
+                        },
+                        {
+                            "begin": 59,
+                            "end": 60
+                        },
+                        {
+                            "begin": 61,
+                            "end": 62
+                        },
+                        {
+                            "begin": 63,
+                            "end": 65
+                        },
+                        {
+                            "begin": 70,
+                            "end": 75
+                        },
+                        {
+                            "begin": 83,
+                            "end": 84
+                        },
+                        {
+                            "begin": 85,
+                            "end": 86
+                        },
+                        {
+                            "begin": 89,
+                            "end": 101
+                        }
+                    ]
+                ],
+                "value": "4"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 7
+                    },
+                    {
+                        "value": 9
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 0,
+                            "end": 12
+                        },
+                        {
+                            "begin": 14,
+                            "end": 15
+                        },
+                        {
+                            "begin": 20,
+                            "end": 21
+                        },
+                        {
+                            "begin": 22,
+                            "end": 25
+                        },
+                        {
+                            "begin": 32,
+                            "end": 33
+                        },
+                        {
+                            "begin": 34,
+                            "end": 35
+                        },
+                        {
+                            "begin": 60,
+                            "end": 61
+                        },
+                        {
+                            "begin": 66,
+                            "end": 68
+                        },
+                        {
+                            "begin": 77,
+                            "end": 78
+                        },
+                        {
+                            "begin": 81,
+                            "end": 82
+                        },
+                        {
+                            "begin": 83,
+                            "end": 84
+                        }
+                    ]
+                ],
+                "value": "43"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 6
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 10,
+                            "end": 12
+                        },
+                        {
+                            "begin": 14,
+                            "end": 16
+                        },
+                        {
+                            "begin": 19,
+                            "end": 21
+                        },
+                        {
+                            "begin": 24,
+                            "end": 25
+                        },
+                        {
+                            "begin": 32,
+                            "end": 34
+                        },
+                        {
+                            "begin": 39,
+                            "end": 40
+                        },
+                        {
+                            "begin": 42,
+                            "end": 44
+                        },
+                        {
+                            "begin": 47,
+                            "end": 48
+                        },
+                        {
+                            "begin": 49,
+                            "end": 50
+                        },
+                        {
+                            "begin": 52,
+                            "end": 53
+                        },
+                        {
+                            "begin": 54,
+                            "end": 56
+                        },
+                        {
+                            "begin": 63,
+                            "end": 64
+                        },
+                        {
+                            "begin": 68,
+                            "end": 69
+                        },
+                        {
+                            "begin": 76,
+                            "end": 77
+                        },
+                        {
+                            "begin": 78,
+                            "end": 83
+                        },
+                        {
+                            "begin": 86,
+                            "end": 87
+                        },
+                        {
+                            "begin": 88,
+                            "end": 89
+                        }
+                    ]
+                ],
+                "value": "13"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 9
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 15,
+                            "end": 16
+                        },
+                        {
+                            "begin": 18,
+                            "end": 20
+                        },
+                        {
+                            "begin": 21,
+                            "end": 22
+                        },
+                        {
+                            "begin": 30,
+                            "end": 31
+                        },
+                        {
+                            "begin": 33,
+                            "end": 34
+                        },
+                        {
+                            "begin": 37,
+                            "end": 38
+                        },
+                        {
+                            "begin": 40,
+                            "end": 41
+                        },
+                        {
+                            "begin": 47,
+                            "end": 49
+                        },
+                        {
+                            "begin": 55,
+                            "end": 56
+                        },
+                        {
+                            "begin": 63,
+                            "end": 64
+                        },
+                        {
+                            "begin": 72,
+                            "end": 73
+                        },
+                        {
+                            "begin": 75,
+                            "end": 78
+                        },
+                        {
+                            "begin": 81,
+                            "end": 82
+                        },
+                        {
+                            "begin": 84,
+                            "end": 85
+                        },
+                        {
+                            "begin": 87,
+                            "end": 88
+                        }
+                    ]
+                ],
+                "value": "8"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 5
+                    },
+                    {
+                        "value": 8
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 16,
+                            "end": 19
+                        },
+                        {
+                            "begin": 24,
+                            "end": 27
+                        },
+                        {
+                            "begin": 33,
+                            "end": 34
+                        },
+                        {
+                            "begin": 35,
+                            "end": 36
+                        },
+                        {
+                            "begin": 42,
+                            "end": 43
+                        },
+                        {
+                            "begin": 46,
+                            "end": 48
+                        },
+                        {
+                            "begin": 51,
+                            "end": 53
+                        },
+                        {
+                            "begin": 57,
+                            "end": 58
+                        },
+                        {
+                            "begin": 66,
+                            "end": 68
+                        },
+                        {
+                            "begin": 77,
+                            "end": 78
+                        },
+                        {
+                            "begin": 88,
+                            "end": 101
+                        }
+                    ]
+                ],
+                "value": "37"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 6
+                    },
+                    {
+                        "value": 4
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 12,
+                            "end": 15
+                        },
+                        {
+                            "begin": 17,
+                            "end": 18
+                        },
+                        {
+                            "begin": 21,
+                            "end": 22
+                        },
+                        {
+                            "begin": 27,
+                            "end": 28
+                        },
+                        {
+                            "begin": 41,
+                            "end": 42
+                        },
+                        {
+                            "begin": 53,
+                            "end": 54
+                        },
+                        {
+                            "begin": 60,
+                            "end": 61
+                        },
+                        {
+                            "begin": 65,
+                            "end": 67
+                        },
+                        {
+                            "begin": 78,
+                            "end": 79
+                        },
+                        {
+                            "begin": 82,
+                            "end": 83
+                        }
+                    ]
+                ],
+                "value": "31"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 2
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 10,
+                            "end": 11
+                        },
+                        {
+                            "begin": 13,
+                            "end": 14
+                        },
+                        {
+                            "begin": 23,
+                            "end": 24
+                        },
+                        {
+                            "begin": 36,
+                            "end": 39
+                        },
+                        {
+                            "begin": 44,
+                            "end": 46
+                        },
+                        {
+                            "begin": 47,
+                            "end": 48
+                        },
+                        {
+                            "begin": 49,
+                            "end": 50
+                        },
+                        {
+                            "begin": 52,
+                            "end": 53
+                        },
+                        {
+                            "begin": 60,
+                            "end": 63
+                        },
+                        {
+                            "begin": 64,
+                            "end": 65
+                        },
+                        {
+                            "begin": 70,
+                            "end": 71
+                        },
+                        {
+                            "begin": 75,
+                            "end": 76
+                        },
+                        {
+                            "begin": 84,
+                            "end": 85
+                        },
+                        {
+                            "begin": 86,
+                            "end": 87
+                        },
+                        {
+                            "begin": 88,
+                            "end": 101
+                        }
+                    ]
+                ],
+                "value": "1"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 3
+                    },
+                    {
+                        "value": 4
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 0,
+                            "end": 11
+                        },
+                        {
+                            "begin": 21,
+                            "end": 22
+                        },
+                        {
+                            "begin": 23,
+                            "end": 25
+                        },
+                        {
+                            "begin": 27,
+                            "end": 28
+                        },
+                        {
+                            "begin": 31,
+                            "end": 32
+                        },
+                        {
+                            "begin": 36,
+                            "end": 37
+                        },
+                        {
+                            "begin": 41,
+                            "end": 42
+                        },
+                        {
+                            "begin": 51,
+                            "end": 52
+                        },
+                        {
+                            "begin": 53,
+                            "end": 55
+                        },
+                        {
+                            "begin": 62,
+                            "end": 63
+                        },
+                        {
+                            "begin": 64,
+                            "end": 66
+                        },
+                        {
+                            "begin": 71,
+                            "end": 73
+                        },
+                        {
+                            "begin": 74,
+                            "end": 76
+                        },
+                        {
+                            "begin": 83,
+                            "end": 84
+                        },
+                        {
+                            "begin": 88,
+                            "end": 89
+                        }
+                    ]
+                ],
+                "value": "24"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 8
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 0,
+                            "end": 10
+                        },
+                        {
+                            "begin": 13,
+                            "end": 14
+                        },
+                        {
+                            "begin": 15,
+                            "end": 16
+                        },
+                        {
+                            "begin": 18,
+                            "end": 19
+                        },
+                        {
+                            "begin": 22,
+                            "end": 23
+                        },
+                        {
+                            "begin": 24,
+                            "end": 25
+                        },
+                        {
+                            "begin": 34,
+                            "end": 35
+                        },
+                        {
+                            "begin": 39,
+                            "end": 40
+                        },
+                        {
+                            "begin": 41,
+                            "end": 42
+                        },
+                        {
+                            "begin": 46,
+                            "end": 49
+                        },
+                        {
+                            "begin": 59,
+                            "end": 62
+                        },
+                        {
+                            "begin": 79,
+                            "end": 80
+                        },
+                        {
+                            "begin": 87,
+                            "end": 88
+                        }
+                    ]
+                ],
+                "value": "15"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 8
+                    },
+                    {
+                        "value": 3
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 10,
+                            "end": 12
+                        },
+                        {
+                            "begin": 15,
+                            "end": 16
+                        },
+                        {
+                            "begin": 29,
+                            "end": 31
+                        },
+                        {
+                            "begin": 34,
+                            "end": 35
+                        },
+                        {
+                            "begin": 36,
+                            "end": 37
+                        },
+                        {
+                            "begin": 42,
+                            "end": 43
+                        },
+                        {
+                            "begin": 44,
+                            "end": 45
+                        },
+                        {
+                            "begin": 49,
+                            "end": 52
+                        },
+                        {
+                            "begin": 65,
+                            "end": 66
+                        },
+                        {
+                            "begin": 67,
+                            "end": 68
+                        },
+                        {
+                            "begin": 76,
+                            "end": 78
+                        },
+                        {
+                            "begin": 81,
+                            "end": 82
+                        },
+                        {
+                            "begin": 83,
+                            "end": 84
+                        },
+                        {
+                            "begin": 86,
+                            "end": 87
+                        },
+                        {
+                            "begin": 89,
+                            "end": 101
+                        }
+                    ]
+                ],
+                "value": "28"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 5
+                    },
+                    {
+                        "value": 9
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 11,
+                            "end": 12
+                        },
+                        {
+                            "begin": 16,
+                            "end": 18
+                        },
+                        {
+                            "begin": 21,
+                            "end": 22
+                        },
+                        {
+                            "begin": 28,
+                            "end": 29
+                        },
+                        {
+                            "begin": 33,
+                            "end": 35
+                        },
+                        {
+                            "begin": 50,
+                            "end": 51
+                        },
+                        {
+                            "begin": 53,
+                            "end": 55
+                        },
+                        {
+                            "begin": 58,
+                            "end": 61
+                        },
+                        {
+                            "begin": 62,
+                            "end": 64
+                        },
+                        {
+                            "begin": 65,
+                            "end": 66
+                        },
+                        {
+                            "begin": 67,
+                            "end": 68
+                        },
+                        {
+                            "begin": 76,
+                            "end": 77
+                        },
+                        {
+                            "begin": 78,
+                            "end": 79
+                        },
+                        {
+                            "begin": 85,
+                            "end": 86
+                        },
+                        {
+                            "begin": 87,
+                            "end": 101
+                        }
+                    ]
+                ],
+                "value": "38"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 6
+                    },
+                    {
+                        "value": 3
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 0,
+                            "end": 10
+                        },
+                        {
+                            "begin": 12,
+                            "end": 13
+                        },
+                        {
+                            "begin": 15,
+                            "end": 16
+                        },
+                        {
+                            "begin": 21,
+                            "end": 22
+                        },
+                        {
+                            "begin": 26,
+                            "end": 27
+                        },
+                        {
+                            "begin": 30,
+                            "end": 31
+                        },
+                        {
+                            "begin": 37,
+                            "end": 38
+                        },
+                        {
+                            "begin": 44,
+                            "end": 46
+                        },
+                        {
+                            "begin": 47,
+                            "end": 48
+                        },
+                        {
+                            "begin": 50,
+                            "end": 52
+                        },
+                        {
+                            "begin": 54,
+                            "end": 58
+                        },
+                        {
+                            "begin": 59,
+                            "end": 60
+                        },
+                        {
+                            "begin": 62,
+                            "end": 63
+                        },
+                        {
+                            "begin": 64,
+                            "end": 66
+                        },
+                        {
+                            "begin": 80,
+                            "end": 81
+                        },
+                        {
+                            "begin": 85,
+                            "end": 87
+                        }
+                    ]
+                ],
+                "value": "26"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 4
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 15,
+                            "end": 17
+                        },
+                        {
+                            "begin": 19,
+                            "end": 20
+                        },
+                        {
+                            "begin": 23,
+                            "end": 25
+                        },
+                        {
+                            "begin": 26,
+                            "end": 27
+                        },
+                        {
+                            "begin": 29,
+                            "end": 31
+                        },
+                        {
+                            "begin": 32,
+                            "end": 36
+                        },
+                        {
+                            "begin": 38,
+                            "end": 41
+                        },
+                        {
+                            "begin": 43,
+                            "end": 46
+                        },
+                        {
+                            "begin": 50,
+                            "end": 54
+                        },
+                        {
+                            "begin": 58,
+                            "end": 59
+                        },
+                        {
+                            "begin": 63,
+                            "end": 64
+                        },
+                        {
+                            "begin": 66,
+                            "end": 69
+                        },
+                        {
+                            "begin": 75,
+                            "end": 81
+                        },
+                        {
+                            "begin": 82,
+                            "end": 83
+                        }
+                    ]
+                ],
+                "value": "3"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 9
+                    },
+                    {
+                        "value": 4
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 11,
+                            "end": 12
+                        },
+                        {
+                            "begin": 14,
+                            "end": 15
+                        },
+                        {
+                            "begin": 17,
+                            "end": 19
+                        },
+                        {
+                            "begin": 23,
+                            "end": 24
+                        },
+                        {
+                            "begin": 28,
+                            "end": 29
+                        },
+                        {
+                            "begin": 31,
+                            "end": 32
+                        },
+                        {
+                            "begin": 37,
+                            "end": 38
+                        },
+                        {
+                            "begin": 40,
+                            "end": 41
+                        },
+                        {
+                            "begin": 44,
+                            "end": 45
+                        },
+                        {
+                            "begin": 46,
+                            "end": 47
+                        },
+                        {
+                            "begin": 55,
+                            "end": 57
+                        },
+                        {
+                            "begin": 64,
+                            "end": 65
+                        },
+                        {
+                            "begin": 67,
+                            "end": 68
+                        },
+                        {
+                            "begin": 69,
+                            "end": 70
+                        },
+                        {
+                            "begin": 75,
+                            "end": 77
+                        },
+                        {
+                            "begin": 80,
+                            "end": 81
+                        },
+                        {
+                            "begin": 84,
+                            "end": 85
+                        },
+                        {
+                            "begin": 87,
+                            "end": 89
+                        }
+                    ]
+                ],
+                "value": "34"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 5
+                    },
+                    {
+                        "value": 1
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 13,
+                            "end": 14
+                        },
+                        {
+                            "begin": 20,
+                            "end": 21
+                        },
+                        {
+                            "begin": 25,
+                            "end": 26
+                        },
+                        {
+                            "begin": 32,
+                            "end": 33
+                        },
+                        {
+                            "begin": 36,
+                            "end": 38
+                        },
+                        {
+                            "begin": 39,
+                            "end": 40
+                        },
+                        {
+                            "begin": 48,
+                            "end": 49
+                        },
+                        {
+                            "begin": 58,
+                            "end": 59
+                        },
+                        {
+                            "begin": 63,
+                            "end": 65
+                        },
+                        {
+                            "begin": 66,
+                            "end": 71
+                        },
+                        {
+                            "begin": 73,
+                            "end": 75
+                        },
+                        {
+                            "begin": 76,
+                            "end": 81
+                        },
+                        {
+                            "begin": 87,
+                            "end": 88
+                        }
+                    ]
+                ],
+                "value": "12"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 4
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 22,
+                            "end": 24
+                        },
+                        {
+                            "begin": 25,
+                            "end": 26
+                        },
+                        {
+                            "begin": 32,
+                            "end": 34
+                        },
+                        {
+                            "begin": 47,
+                            "end": 48
+                        },
+                        {
+                            "begin": 51,
+                            "end": 52
+                        },
+                        {
+                            "begin": 53,
+                            "end": 54
+                        },
+                        {
+                            "begin": 59,
+                            "end": 60
+                        },
+                        {
+                            "begin": 64,
+                            "end": 65
+                        },
+                        {
+                            "begin": 66,
+                            "end": 67
+                        },
+                        {
+                            "begin": 71,
+                            "end": 72
+                        },
+                        {
+                            "begin": 73,
+                            "end": 74
+                        },
+                        {
+                            "begin": 78,
+                            "end": 79
+                        },
+                        {
+                            "begin": 85,
+                            "end": 86
+                        },
+                        {
+                            "begin": 87,
+                            "end": 88
+                        }
+                    ]
+                ],
+                "value": "11"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": 6
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 18,
+                            "end": 20
+                        },
+                        {
+                            "begin": 23,
+                            "end": 24
+                        },
+                        {
+                            "begin": 26,
+                            "end": 27
+                        },
+                        {
+                            "begin": 28,
+                            "end": 29
+                        },
+                        {
+                            "begin": 31,
+                            "end": 32
+                        },
+                        {
+                            "begin": 45,
+                            "end": 47
+                        },
+                        {
+                            "begin": 48,
+                            "end": 50
+                        },
+                        {
+                            "begin": 53,
+                            "end": 54
+                        },
+                        {
+                            "begin": 61,
+                            "end": 62
+                        },
+                        {
+                            "begin": 63,
+                            "end": 64
+                        },
+                        {
+                            "begin": 70,
+                            "end": 71
+                        },
+                        {
+                            "begin": 74,
+                            "end": 75
+                        },
+                        {
+                            "begin": 77,
+                            "end": 79
+                        },
+                        {
+                            "begin": 85,
+                            "end": 86
+                        },
+                        {
+                            "begin": 87,
+                            "end": 88
+                        },
+                        {
+                            "begin": 89,
+                            "end": 101
+                        }
+                    ]
+                ],
+                "value": "20"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 3
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 0,
+                            "end": 11
+                        },
+                        {
+                            "begin": 12,
+                            "end": 13
+                        },
+                        {
+                            "begin": 18,
+                            "end": 19
+                        },
+                        {
+                            "begin": 21,
+                            "end": 22
+                        },
+                        {
+                            "begin": 26,
+                            "end": 27
+                        },
+                        {
+                            "begin": 29,
+                            "end": 33
+                        },
+                        {
+                            "begin": 35,
+                            "end": 36
+                        },
+                        {
+                            "begin": 39,
+                            "end": 41
+                        },
+                        {
+                            "begin": 43,
+                            "end": 44
+                        },
+                        {
+                            "begin": 57,
+                            "end": 59
+                        },
+                        {
+                            "begin": 61,
+                            "end": 62
+                        },
+                        {
+                            "begin": 67,
+                            "end": 68
+                        },
+                        {
+                            "begin": 70,
+                            "end": 71
+                        },
+                        {
+                            "begin": 77,
+                            "end": 78
+                        },
+                        {
+                            "begin": 85,
+                            "end": 89
+                        }
+                    ]
+                ],
+                "value": "2"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": 7
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 0,
+                            "end": 10
+                        },
+                        {
+                            "begin": 22,
+                            "end": 23
+                        },
+                        {
+                            "begin": 28,
+                            "end": 29
+                        },
+                        {
+                            "begin": 32,
+                            "end": 34
+                        },
+                        {
+                            "begin": 38,
+                            "end": 39
+                        },
+                        {
+                            "begin": 42,
+                            "end": 44
+                        },
+                        {
+                            "begin": 50,
+                            "end": 51
+                        },
+                        {
+                            "begin": 57,
+                            "end": 58
+                        },
+                        {
+                            "begin": 61,
+                            "end": 62
+                        },
+                        {
+                            "begin": 74,
+                            "end": 75
+                        },
+                        {
+                            "begin": 76,
+                            "end": 77
+                        },
+                        {
+                            "begin": 82,
+                            "end": 85
+                        }
+                    ]
+                ],
+                "value": "21"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 8
+                    },
+                    {
+                        "value": 4
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 12,
+                            "end": 15
+                        },
+                        {
+                            "begin": 19,
+                            "end": 21
+                        },
+                        {
+                            "begin": 27,
+                            "end": 28
+                        },
+                        {
+                            "begin": 30,
+                            "end": 31
+                        },
+                        {
+                            "begin": 32,
+                            "end": 33
+                        },
+                        {
+                            "begin": 39,
+                            "end": 40
+                        },
+                        {
+                            "begin": 43,
+                            "end": 45
+                        },
+                        {
+                            "begin": 49,
+                            "end": 50
+                        },
+                        {
+                            "begin": 52,
+                            "end": 53
+                        },
+                        {
+                            "begin": 57,
+                            "end": 59
+                        },
+                        {
+                            "begin": 62,
+                            "end": 64
+                        },
+                        {
+                            "begin": 65,
+                            "end": 66
+                        },
+                        {
+                            "begin": 81,
+                            "end": 82
+                        },
+                        {
+                            "begin": 88,
+                            "end": 89
+                        }
+                    ]
+                ],
+                "value": "33"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 0
+                    },
+                    {
+                        "value": 1
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 14,
+                            "end": 15
+                        },
+                        {
+                            "begin": 20,
+                            "end": 21
+                        },
+                        {
+                            "begin": 24,
+                            "end": 26
+                        },
+                        {
+                            "begin": 38,
+                            "end": 39
+                        },
+                        {
+                            "begin": 56,
+                            "end": 57
+                        },
+                        {
+                            "begin": 60,
+                            "end": 62
+                        },
+                        {
+                            "begin": 74,
+                            "end": 76
+                        },
+                        {
+                            "begin": 86,
+                            "end": 87
+                        },
+                        {
+                            "begin": 89,
+                            "end": 101
+                        }
+                    ]
+                ],
+                "value": "0"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": 1
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 16,
+                            "end": 18
+                        },
+                        {
+                            "begin": 24,
+                            "end": 27
+                        },
+                        {
+                            "begin": 33,
+                            "end": 34
+                        },
+                        {
+                            "begin": 40,
+                            "end": 44
+                        },
+                        {
+                            "begin": 50,
+                            "end": 51
+                        },
+                        {
+                            "begin": 53,
+                            "end": 55
+                        },
+                        {
+                            "begin": 61,
+                            "end": 62
+                        },
+                        {
+                            "begin": 75,
+                            "end": 76
+                        },
+                        {
+                            "begin": 78,
+                            "end": 79
+                        },
+                        {
+                            "begin": 84,
+                            "end": 85
+                        }
+                    ]
+                ],
+                "value": "9"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 5
+                    },
+                    {
+                        "value": 4
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 13,
+                            "end": 14
+                        },
+                        {
+                            "begin": 27,
+                            "end": 28
+                        },
+                        {
+                            "begin": 29,
+                            "end": 32
+                        },
+                        {
+                            "begin": 34,
+                            "end": 36
+                        },
+                        {
+                            "begin": 37,
+                            "end": 39
+                        },
+                        {
+                            "begin": 41,
+                            "end": 42
+                        },
+                        {
+                            "begin": 50,
+                            "end": 51
+                        },
+                        {
+                            "begin": 52,
+                            "end": 56
+                        },
+                        {
+                            "begin": 63,
+                            "end": 64
+                        },
+                        {
+                            "begin": 65,
+                            "end": 66
+                        },
+                        {
+                            "begin": 69,
+                            "end": 73
+                        },
+                        {
+                            "begin": 79,
+                            "end": 80
+                        },
+                        {
+                            "begin": 81,
+                            "end": 83
+                        },
+                        {
+                            "begin": 86,
+                            "end": 87
+                        }
+                    ]
+                ],
+                "value": "30"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 9
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 10,
+                            "end": 12
+                        },
+                        {
+                            "begin": 21,
+                            "end": 22
+                        },
+                        {
+                            "begin": 29,
+                            "end": 30
+                        },
+                        {
+                            "begin": 36,
+                            "end": 37
+                        },
+                        {
+                            "begin": 41,
+                            "end": 42
+                        },
+                        {
+                            "begin": 44,
+                            "end": 46
+                        },
+                        {
+                            "begin": 53,
+                            "end": 56
+                        },
+                        {
+                            "begin": 60,
+                            "end": 61
+                        },
+                        {
+                            "begin": 66,
+                            "end": 67
+                        },
+                        {
+                            "begin": 69,
+                            "end": 70
+                        },
+                        {
+                            "begin": 75,
+                            "end": 76
+                        }
+                    ]
+                ],
+                "value": "16"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": 9
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 12,
+                            "end": 13
+                        },
+                        {
+                            "begin": 14,
+                            "end": 15
+                        },
+                        {
+                            "begin": 22,
+                            "end": 23
+                        },
+                        {
+                            "begin": 26,
+                            "end": 29
+                        },
+                        {
+                            "begin": 30,
+                            "end": 31
+                        },
+                        {
+                            "begin": 37,
+                            "end": 38
+                        },
+                        {
+                            "begin": 42,
+                            "end": 43
+                        },
+                        {
+                            "begin": 46,
+                            "end": 47
+                        },
+                        {
+                            "begin": 50,
+                            "end": 52
+                        },
+                        {
+                            "begin": 62,
+                            "end": 63
+                        },
+                        {
+                            "begin": 67,
+                            "end": 68
+                        },
+                        {
+                            "begin": 72,
+                            "end": 73
+                        }
+                    ]
+                ],
+                "value": "23"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 1
+                    },
+                    {
+                        "value": 7
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 0,
+                            "end": 10
+                        },
+                        {
+                            "begin": 17,
+                            "end": 19
+                        },
+                        {
+                            "begin": 20,
+                            "end": 24
+                        },
+                        {
+                            "begin": 35,
+                            "end": 36
+                        },
+                        {
+                            "begin": 39,
+                            "end": 40
+                        },
+                        {
+                            "begin": 42,
+                            "end": 43
+                        },
+                        {
+                            "begin": 48,
+                            "end": 49
+                        },
+                        {
+                            "begin": 57,
+                            "end": 60
+                        },
+                        {
+                            "begin": 64,
+                            "end": 65
+                        },
+                        {
+                            "begin": 67,
+                            "end": 70
+                        },
+                        {
+                            "begin": 83,
+                            "end": 84
+                        },
+                        {
+                            "begin": 85,
+                            "end": 88
+                        }
+                    ]
+                ],
+                "value": "14"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 7
+                    },
+                    {
+                        "value": 4
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 10,
+                            "end": 11
+                        },
+                        {
+                            "begin": 16,
+                            "end": 17
+                        },
+                        {
+                            "begin": 27,
+                            "end": 28
+                        },
+                        {
+                            "begin": 31,
+                            "end": 32
+                        },
+                        {
+                            "begin": 33,
+                            "end": 34
+                        },
+                        {
+                            "begin": 40,
+                            "end": 41
+                        },
+                        {
+                            "begin": 48,
+                            "end": 50
+                        },
+                        {
+                            "begin": 56,
+                            "end": 57
+                        },
+                        {
+                            "begin": 62,
+                            "end": 64
+                        },
+                        {
+                            "begin": 65,
+                            "end": 66
+                        },
+                        {
+                            "begin": 71,
+                            "end": 73
+                        },
+                        {
+                            "begin": 74,
+                            "end": 75
+                        },
+                        {
+                            "begin": 79,
+                            "end": 81
+                        },
+                        {
+                            "begin": 82,
+                            "end": 83
+                        }
+                    ]
+                ],
+                "value": "32"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 8
+                    },
+                    {
+                        "value": 6
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 11,
+                            "end": 13
+                        },
+                        {
+                            "begin": 16,
+                            "end": 17
+                        },
+                        {
+                            "begin": 20,
+                            "end": 21
+                        },
+                        {
+                            "begin": 27,
+                            "end": 28
+                        },
+                        {
+                            "begin": 36,
+                            "end": 37
+                        },
+                        {
+                            "begin": 45,
+                            "end": 46
+                        },
+                        {
+                            "begin": 48,
+                            "end": 50
+                        },
+                        {
+                            "begin": 61,
+                            "end": 62
+                        },
+                        {
+                            "begin": 66,
+                            "end": 67
+                        },
+                        {
+                            "begin": 68,
+                            "end": 71
+                        }
+                    ]
+                ],
+                "value": "40"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": 5
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 26,
+                            "end": 27
+                        },
+                        {
+                            "begin": 31,
+                            "end": 32
+                        },
+                        {
+                            "begin": 39,
+                            "end": 40
+                        },
+                        {
+                            "begin": 43,
+                            "end": 44
+                        },
+                        {
+                            "begin": 46,
+                            "end": 47
+                        },
+                        {
+                            "begin": 52,
+                            "end": 53
+                        },
+                        {
+                            "begin": 74,
+                            "end": 75
+                        },
+                        {
+                            "begin": 78,
+                            "end": 79
+                        },
+                        {
+                            "begin": 81,
+                            "end": 82
+                        },
+                        {
+                            "begin": 84,
+                            "end": 85
+                        },
+                        {
+                            "begin": 87,
+                            "end": 88
+                        }
+                    ]
+                ],
+                "value": "19"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 5
+                    },
+                    {
+                        "value": 7
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 11,
+                            "end": 13
+                        },
+                        {
+                            "begin": 14,
+                            "end": 15
+                        },
+                        {
+                            "begin": 16,
+                            "end": 17
+                        },
+                        {
+                            "begin": 25,
+                            "end": 27
+                        },
+                        {
+                            "begin": 31,
+                            "end": 32
+                        },
+                        {
+                            "begin": 47,
+                            "end": 48
+                        },
+                        {
+                            "begin": 51,
+                            "end": 52
+                        },
+                        {
+                            "begin": 55,
+                            "end": 57
+                        },
+                        {
+                            "begin": 69,
+                            "end": 70
+                        },
+                        {
+                            "begin": 72,
+                            "end": 73
+                        },
+                        {
+                            "begin": 89,
+                            "end": 101
+                        }
+                    ]
+                ],
+                "value": "36"
+            },
+            {
+                "endpoints": [
+                    {
+                        "value": 2
+                    },
+                    {
+                        "value": 3
+                    }
+                ],
+                "timeline": [
+                    [
+                        {
+                            "begin": 15,
+                            "end": 16
+                        },
+                        {
+                            "begin": 20,
+                            "end": 21
+                        },
+                        {
+                            "begin": 24,
+                            "end": 25
+                        },
+                        {
+                            "begin": 28,
+                            "end": 30
+                        },
+                        {
+                            "begin": 31,
+                            "end": 33
+                        },
+                        {
+                            "begin": 42,
+                            "end": 43
+                        },
+                        {
+                            "begin": 45,
+                            "end": 46
+                        },
+                        {
+                            "begin": 51,
+                            "end": 52
+                        },
+                        {
+                            "begin": 54,
+                            "end": 55
+                        },
+                        {
+                            "begin": 66,
+                            "end": 67
+                        },
+                        {
+                            "begin": 71,
+                            "end": 73
+                        },
+                        {
+                            "begin": 79,
+                            "end": 82
+                        },
+                        {
+                            "begin": 88,
+                            "end": 101
+                        }
+                    ]
+                ],
+                "value": "17"
+            }
+        ],
+        "Vertices": [
+            {
+                "presence": [
+                    {
+                        "begin": 0,
+                        "end": 101
+                    }
+                ],
+                "value": "0"
+            },
+            {
+                "presence": [
+                    {
+                        "begin": 0,
+                        "end": 101
+                    }
+                ],
+                "value": "2"
+            },
+            {
+                "presence": [
+                    {
+                        "begin": 0,
+                        "end": 101
+                    }
+                ],
+                "value": "5"
+            },
+            {
+                "presence": [
+                    {
+                        "begin": 0,
+                        "end": 101
+                    }
+                ],
+                "value": "1"
+            },
+            {
+                "presence": [
+                    {
+                        "begin": 0,
+                        "end": 101
+                    }
+                ],
+                "value": "7"
+            },
+            {
+                "presence": [
+                    {
+                        "begin": 0,
+                        "end": 101
+                    }
+                ],
+                "value": "8"
+            },
+            {
+                "presence": [
+                    {
+                        "begin": 0,
+                        "end": 101
+                    }
+                ],
+                "value": "6"
+            },
+            {
+                "presence": [
+                    {
+                        "begin": 0,
+                        "end": 101
+                    }
+                ],
+                "value": "9"
+            },
+            {
+                "presence": [
+                    {
+                        "begin": 0,
+                        "end": 101
+                    }
+                ],
+                "value": "3"
+            },
+            {
+                "presence": [
+                    {
+                        "begin": 0,
+                        "end": 101
+                    }
+                ],
+                "value": "4"
+            }
+        ]
+    }
+}

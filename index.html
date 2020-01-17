@@ -114,7 +114,7 @@
                 .data(graph.edges)
                 .enter().append("line")
                 .attr("class", function(d) {return "link from" + d.source + " to" + d.target; })
-                .style("stroke-width", 1);
+                .style("stroke-width",function(d) {return d.weight ? d.weight : 1;} );
 
             var node = svg.selectAll(".node")
                 .data(graph.nodes)
